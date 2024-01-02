@@ -4,8 +4,8 @@ const cacheTTL = 60 * 60 * 24 * 365; // 1 year – you can set this to whatever 
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Welcome to Nuxt',
-      meta: [{ name: 'description', content: 'My awesome Nuxt project' }],
+      title: 'Storipod Admin',
+      meta: [{ name: 'description', content: '“Transforming data into actionable insights.”' }],
       link: [{ rel: 'icon', href: '/favicon.ico' }],
       htmlAttrs: {
         lang: 'en',
